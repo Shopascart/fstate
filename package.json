@@ -1,0 +1,46 @@
+{
+    "name": "@shopascart/fstate",
+    "version": "1.0.4",
+    "description": "A simple finite state machine for react applications",
+    "main": "dist/cjs/index.js",
+    "module": "dist/ts/index.js",
+    "files": [
+        "dist"
+    ],
+    "directories": {
+        "dist": "dist"
+    },
+    "scripts": {
+        "build": "npm run build:ts && npm run build:cjs",
+        "build:ts": "tsc",
+        "build:cjs": "tsc --module CommonJS --outDir dist/cjs",
+        "prepublishOnly": "npm run build",
+        "tsc:init": "tsc --init"
+    },
+    "keywords": [],
+    "author": "Shopascart",
+    "devDependencies": {
+        "@types/node": "^18.0.0",
+        "@types/react": "^18.0.14",
+        "@types/react-dom": "^18.0.5",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "typescript": "^4.7.4"
+    },
+    "peerDependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "dependencies": {
+        "valtio": "^1.6.4"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Shopascart/appstore/fstate.git"
+    },
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Shopascart/appstore/fstate/issues"
+    },
+    "homepage": "https://github.com/Shopascart/appstore/fstate/#readme"
+}
