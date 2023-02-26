@@ -36,11 +36,11 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Shopascart/appstore/fstate.git"
+        "url": "git+https://github.com/Shopascart/fstate.git"
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/Shopascart/appstore/fstate/issues"
+        "url": "https://github.com/Shopascart/fstate/issues"
     },
-    "homepage": "https://github.com/Shopascart/appstore/fstate/#readme"
+    "homepage": "https://github.com/Shopascart/fstate/#readme"
 }
